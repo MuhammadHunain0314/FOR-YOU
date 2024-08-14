@@ -1,0 +1,51 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.message h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #ff69b4;
+}
+
+#flowers {
+    margin-top: 20px;
+}
+
+.flower {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
